@@ -1,0 +1,165 @@
+
+#welcome{
+ width:1550px;
+ height:30px;
+color:rgb(235, 238, 244);
+border:1px solid rgb(237, 231, 232);
+ 
+}
+.food{
+ width:100px;
+ height:104px;
+}
+
+#navig a {
+  color: white;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+body::before {
+   content: "";
+   
+     background-image:url("/pancake.jpg");
+     background-size: cover;
+     position: fixed;
+      inset: -10px;
+       background-position: center;
+       background-repeat: no-repeat;
+        filter: blur(5px);
+  transform: scale(1.05);
+  z-index: -10;
+}
+body {
+  
+  
+  background-position: center;
+   background-repeat: no-repeat;
+   
+
+}
+
+#navig {
+  display: flex;
+  gap: 80px;
+}
+
+.food-website {
+  font-family: Arial, sans-serif;
+  background-color: #fff8f0;
+  min-height: 100vh;
+  padding: 20px;
+}
+
+
+.food-website h1 {
+  text-align: center;
+  color: #e63946;
+  font-size: 40px;
+  margin-bottom: 20px;
+}
+
+
+.navbar {
+  background-color: #e63946;
+  padding: 15px;
+  text-align: center;
+  border-radius: 10px;
+}
+
+.navbar a {
+  color: white;
+  text-decoration: none;
+  margin: 0 20px;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.navbar a:hover {
+  color: #ffd166;
+}
+
+.fon{
+  width:350px;
+  height:550px;
+  left:1050px;
+  position:absolute;
+  top:110px;
+}
+
+#home {
+  width: 60%;
+  height: 400px;
+  margin-top: 150px;
+  text-align: center;
+}
+
+
+
+.home p {
+  font-size: 18px;
+  color: #666;
+}
+
+
+
+
+button {
+  background-color: #e63946;
+  color: white;
+  border: none;
+  padding: 12px 25px;
+  border-radius: 8px;
+
+  font-size: 16px;
+  margin-top: 10px;
+}
+
+button:hover {
+  background-color: #c1121f;
+}
+
+
+.menu {
+  text-align: center;
+  padding: 30px 20px;
+}
+
+.menu h2 {
+  font-size: 30px;
+  color: #e63946;
+  margin-bottom: 25px;
+}
+
+
+.food-container {
+  display: flex;
+  justify-content: center;
+  gap: 25px;
+  flex-wrap: wrap;
+}
+
+.food-card {
+  background-color: white;
+  width: 250px;
+  padding: 25px;
+  border-radius: 15px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+  text-align: center;
+  transition: transform 0.3s;
+}
+
+.food-card:hover {
+  transform: translateY(-8px);
+}
+
+.food-card h3 {
+  font-size: 25px;
+  color: #333;
+}
+
+.food-card p {
+  color: #666;
+  font-size: 16px;
+}
+
