@@ -1,16 +1,19 @@
-import React, { useState } from 'react';
+//import React, { useState } from 'react';
 import './App.css';
 //import Navbar from './components/Navbar';
 //import './module2';
 //import Hook from './components/hook';
-import StateHook from './components/StateHook';
-import Smart from './components/Smart';
-import Login from './components/Login';
-import QuantityControl from './components/QuantityControl';
+//import StateHook from './components/StateHook';
+//import Smart from './components/Smart';
+//import Login from './components/Login';
+//import QuantityControl from './components/QuantityControl';
+import News from './components/News';
+import Food from './components/Food';
+import Foodwebsite from './components/Foodwebsite';
 
 function App() {
-  const studentName='Ambika';
-  const marks=77;
+//  const studentName='Ambika';
+  /*const marks=77;
   const productname='mobile';
   const price=14000;
   //const quantity=1;
@@ -29,16 +32,20 @@ function App() {
         setQty(qty-1);
       }
     }
-  
+   */
   return (
-    <div>
+   // <div>
   
   
- <StateHook/>
+ //<StateHook/>
 
- <Smart/>
+ //<Smart/>
+<>
 
 
+<Foodwebsite />
+</>
+/*
 
 <Login studentName={studentName} marks={marks} />
 <br/><br/>
@@ -55,6 +62,7 @@ function App() {
 
  
     </div>
+    */
     
   );
   
